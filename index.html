@@ -1,0 +1,333 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/layout.css">
+<title>LTB</title>
+
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+<script src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+	
+<!--老師上課給的form(會員中心)css-->
+<style type="text/css">
+	input[type=text]{
+		
+		width: 150px;
+		padding: 6px 20px;
+		border: 1px solid #717676;
+		border-radius: 10px;
+	}
+	input[type=password]{
+		
+		width: 150px;
+		padding: 6px 20px;
+		border: 1px solid #717676;
+		border-radius: 10px;
+	}
+	input[type=email]{
+		
+		width: 300px;
+		padding: 6px 20px;
+		border: 1px solid #717676;
+		border-radius: 10px;
+	}
+	textarea{
+		width: 500px;
+		height: 250px;
+		border: 1px solid #717676;
+		border-radius: 10px;
+		padding: 6px 20px;
+	}
+	
+	input[type=reset]{
+		width: 100px;
+		height: 50px;
+		padding: 6px 20px;
+		border-radius: 10px;
+		border: 1px solid #717676;
+		background-color: #717676;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		color: #FAF6F6;
+		font-size: 15px;
+	}
+	input[type=submit]{
+		width: 100px;
+		height: 50px;
+		padding: 6px 20px;
+		border-radius: 10px;
+		border: 1px solid #717676;
+		background-color: #717676;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		color: #FAF6F6;
+		font-size: 15px;
+	}
+	
+	input[type=reset]:hover{
+		background-color: #B1B3B6;
+	}
+	input[type=submit]:hover{
+		background-color:#B1B3B6; 
+	}
+	
+	</style>
+<!--老師上課給的form(會員中心)css__結束-->
+	
+	
+	<script src="js/jquery.js"></script>
+    <script src="js/amazingcarousel.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/initcarousel-1.css">
+    <script src="js/initcarousel-1.js"></script>
+
+	<!--老師額外給的form(會員中心)css-->
+	    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+		<!--<link rel="stylesheet" type="text/css" href="css/demo.css" />-->
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+	   
+	<!--老師額外給的form(會員中心)css__結束-->
+</head>
+
+<body>
+<div> 
+<!-- header -->
+  <header id="header">
+    <h1 id="top"><img src="images/logo150x95.gif" width="153" height="93" alt=""/></h1>
+    <ul id="s_nav">
+      <li class="contact"><a href="#">mail</a></li>
+      <li class="news"><a href="#">news</a></li>
+      <li class="sitemap"><a href="#">sitemap</a></li>
+    </ul>
+	  </header>
+	<!--廣告輪播-->
+   <div id="amazingcarousel-container-1">
+    <div id="amazingcarousel-1" style="display:none;position:relative;width:100%;max-width:3000px;margin:0px auto 0px;">
+        <div class="amazingcarousel-list-container">
+            <ul class="amazingcarousel-list">
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="https://www.northguan-nsa.gov.tw/user/article.aspx?Lang=1&SNo=04006130" title="images_01"  target="_blank"><img src="images/images_01.jpg"  alt="images_01" /></a></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="http://tbmp.com.tw/portfolio/%E3%80%8E2016%E3%80%8F%E4%B8%96%E7%95%8C%E5%81%A5%E8%A1%8C%E6%97%A5%E5%8F%8A%E6%B7%A8%E5%B1%B1%E6%B4%BB%E5%8B%95-%E7%AC%AC272%E6%AC%A1/" title="images_02"  target="_blank"><img src="images/images_02.jpg"  alt="images_02" /></a></div>                    </div>
+                </li>
+                <li class="amazingcarousel-item">
+                    <div class="amazingcarousel-item-container">
+<div class="amazingcarousel-image"><a href="https://teia.tw/life_lastestpost/2021%E5%9C%B0%E7%90%83%E6%97%A5%E3%80%8A%E6%B0%B8%E7%B6%A0%E5%B1%B1%E6%9E%97%E3%80%8B%E7%9F%B3%E7%A2%87%E6%B7%A8%E5%B1%B1/" title="images_03"  target="_blank"><img src="images/images_03.jpg"  alt="images_03" /></a></div>                    </div>
+                </li>
+            </ul>
+            <div class="amazingcarousel-prev"></div>
+            <div class="amazingcarousel-next"></div>
+        </div>
+        <div class="amazingcarousel-nav"></div>
+        <div class="amazingcarousel-engine"><a href="http://amazingcarousel.com">JavaScript Scroller</a></div>
+    </div>
+</div>
+  
+  
+<!-- global navigation -->
+  <nav>
+    <ul class="cf">
+	  
+      <li class="home"><a href="#us">關於我們</a></li>
+      <li><a href="#newspoint">最新消息</a></li>
+      <li><a href="#memberpoint">會員中心</a></li>
+      <li><a href="#workpoint">近期活動</a></li>
+    
+    </ul>
+  </nav>
+  
+<!-- content area -->
+  <div id="contents" class="cf"> 
+    <section id="work" class="cf"><div><span id="workpoint"></span></div><br>
+      <h2>近期活動</h2>
+      <article>
+        <img src="images/pick_up1.png" width="300" height="250" alt=""/>
+<h3><a href="https://teia.tw/life_lastestpost/2021%E5%9C%B0%E7%90%83%E6%97%A5%E3%80%8A%E6%B0%B8%E7%B6%A0%E5%B1%B1%E6%9E%97%E3%80%8B%E7%9F%B3%E7%A2%87%E6%B7%A8%E5%B1%B1/" target="_blank">2021/5/22(六) <br>
+地球日《永綠山林》<br>
+石碇淨山</a></h3>
+        <p>翡翠水庫供應大台北地區用水 ，是翡翠樹蛙模式標本發現之地，更於2018年劃定為國內首座以保護食蛇龜為目標的野生動物保護區 ，本次淨山活動 ，志工將親手撿拾山林中難以清除的垃圾 ，透過實際行動來為動物與環境盡一份心力。<br>
+        </p>
+      </article>
+      
+      <article>
+	    <img src="images/pick_up2.png" width="300" height="250" alt=""/>
+<h3><a href="https://www.northguan-nsa.gov.tw/user/article.aspx?Lang=1&SNo=04006130" target="_blank">2021/3/17(六)<br>
+《北海岸聯合淨灘》<br>
+淨山活動</a></h3>
+        <p>本處訂於3月17日上午10點假石門白沙灣、麟山鼻、風箏公園、老梅綠石槽、金山新金山海灘、外木山汫水澳、觀音山硬漢嶺步道等7處舉辦「2018海灣旅遊年北海岸聯合淨灘、淨山活動」，環保愛地球、欣賞美景兼做公益，共同為維護美麗的北海岸自然環境清潔盡一份心力。 <br>
+        </p>
+      </article>
+     
+      <article><img src="images/pick_up3.png" width="300" height="250" alt=""/>
+        <h3><a href="http://tbmp.com.tw/portfolio/%E3%80%8E2016%E3%80%8F%E4%B8%96%E7%95%8C%E5%81%A5%E8%A1%8C%E6%97%A5%E5%8F%8A%E6%B7%A8%E5%B1%B1%E6%B4%BB%E5%8B%95-%E7%AC%AC272%E6%AC%A1/" target="_blank">2021/7/11(日)<br>
+觀光局北觀處《我愛淨灘》<br>
+實踐環保理念守護地球</a></h3>
+        <p>為響應4月22日「世界地球日」，交通部觀光局北海岸及觀音山國家風景區管理處(下稱北觀處)4月24至25日於野柳地質公園辦理「浮球百人聚繪」及結合新北市環保局於翡翠灣辦理聯合淨灘活動，透過實際參與淨灘呼籲大家重視海洋垃圾問題，宣導減少使用一次性塑膠製品，共同守護美麗的海灣。<br>
+        </p>
+      </article>
+		
+    </section>
+	  
+	  <section id="us" class="cf"><br>
+	  <h2>關於我們</h2>
+	  <img src="images/ocean_04.jpg" width="1500" height="844" alt=""/>
+<p><font size="+2">呼吸</font>，一個簡單的動作，每個人平均一天要重複28,800次，但這個看似平常的日常，在未來也許會變成奢望。每年有超過650萬人死於空氣汙染，超過90%的人生活在有毒的空氣下，如果我們再不做出改變，我們失去的將不只是金錢、愛人、回憶，而是人類存在的痕跡。<br>
+	Let Taiwan Breathe讓台灣呼吸，我們期望讓未來的世代能夠健康開心的呼吸，而不是讓生活變成了生存。在這個平台上，大家可以找到對於未來環境有同樣目標的朋友參與環境保護的活動，也許一個人的力氣是渺小的，但也絕非微不足道，透過大家的努力，我們就能成為改變，甚至是拯救世界的力量。
+		  </p><br>
+	  
+	  </section>
+	  
+	  
+	  <section id="member"><div><span id= "memberpoint"></span></div><br>
+	  <h2>會員中心</h2>
+	  
+		<!--  <form id="form1" name="forme1" method="post" action="../php/ggg.php">
+<table width="700" border="0" align="center">
+  <tbody>
+    
+    <tr>
+      <td width="139">您的帳號:</td>
+      <td width="396"><input type="text" name="Name" id="Name" size="20"></td>
+    </tr>
+    <tr>
+      <td>您的密碼:</td>
+      <td><input type="password" name="password" id="password"></td>
+    </tr>
+    <tr>
+      <td>確認密碼:</td>
+      <td><input type="password" name="password2" id="password2"></td>
+    </tr>
+    <tr>
+      <td>您的Email:</td>
+      <td><input type="email" name="email" id="email" size="50"></td>
+    </tr>
+    <tr>
+      <td>您的性別:</td>
+      <td><input name="gender" type="radio" id="radio" value="男性">
+		  <label form="gender">男性
+		<input name="gender" type="radio" id="radio2" value="女性">
+		女性</label></td>
+    </tr>
+    <tr>
+      <td>有興趣的環保活動:</td>
+      <td><input name="checkbox" type="checkbox" id="checkbox" value="淨山活動">
+      <label for="checkbox">淨山活動
+        <input name="checkbox2" type="checkbox" id="checkbox2" value="淨灘活動">
+      淨灘活動
+      <input name="checkbox3" type="checkbox" id="checkbox3" value="社區服務">
+      社區服務 
+      <input name="checkbox4" type="checkbox" id="checkbox4" value="環保講座">
+       環保講座
+      <input name="checkbox5" type="checkbox" id="checkbox5" value="其他">
+      其他
+		  </label></td>
+    </tr>
+    
+    <tr>
+      <td>您的意見:</td>
+      <td><textarea name="opinion" cols="45" rows="5" id="opinion"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><input name="reset" type="reset" id="reset" value="重設">
+        <input type="submit" name="submit" id="submit" value="送出"></td>
+      </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+</form>-->
+		  
+   <!--老師額外提供的會員中心表單-->
+   <!--<h2>Kaede</h2>-->
+				<span class="input input--kaede">
+					<input class="input__field input__field--kaede" type="text" id="input-35" />
+					<label class="input__label input__label--kaede" for="input-35">
+						<span class="input__label-content input__label-content--kaede">您的帳號</span>
+					</label>
+				</span>
+				<span class="input input--kaede">
+					<input class="input__field input__field--kaede" type="text" id="input-36" />
+					<label class="input__label input__label--kaede" for="input-36">
+						<span class="input__label-content input__label-content--kaede">您的密碼</span>
+					</label>
+				</span>
+				<span class="input input--kaede">
+					<input class="input__field input__field--kaede" type="text" id="input-37" />
+					<label class="input__label input__label--kaede" for="input-37">
+						<span class="input__label-content input__label-content--kaede">您的Email</span>
+					</label>
+				</span>
+		       <tr>
+      <td colspan="2" align="center"><input name="reset" type="reset" id="reset" value="重設">
+        <input type="submit" name="submit" id="submit" value="送出"></td>
+      </tr>
+
+	
+    </section>
+
+	  <section class="content">
+				<!--<h2>Kaede</h2>-->
+			
+			</section>
+	  
+    <section id="news"><span id="newspoint"></span><br>
+      <h2>最新消息</h2>
+      <article>
+        <h3><img class="arrow" src="images/icn_arrow.gif" width="3" height="5" alt=""/>2021.07.23</h3>
+        <p><a href="#">大自然無處不在。我們若要生存和繁榮發展，必須與地球上一切生物共存。</a></p>
+      </article>
+      <article>
+        <h3><img class="arrow" src="images/icn_arrow.gif" width="3" height="5" alt=""/>2021.07.10</h3>
+        <p><a href="#">生物多樣性支撐著地球上所有人生活的每一層面，但它正在以前所未有的幅度下降。多達一百萬種生物更可能在2050年之前消失。</a></p>
+      </article>
+      <article>
+        <h3><img class="arrow" src="images/icn_arrow.gif" width="3" height="5" alt=""/>2021.06.29</h3>
+        <p><a href="#">大自然保護協會 (TNC) 正竭力透過針對性、共同努力的保育行動，有規模地拯救區內一些重要及具標誌性的物種。</a></p>
+      </article>
+    </section>
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+    <section id="information">
+      <h2>INFORMATION</h2>
+      <ul>
+        <li><a href="#"><img src="images/footer1.png" width="470" height="103" alt=""/></a></li>
+        <li><img src="images/footer2.png" width="470" height="103" alt=""/></li>
+      </ul>
+    </section>
+  </div>
+  
+<!-- page top button -->
+  <a href="#top"><img src="images/icn_pagetop.jpg" width="40" height="60" alt="pagetop"></a>
+  
+<!-- footer -->
+  <footer>
+    <div>
+      <p><br>ewloimljkjkl@gmail.com<br>
+      </p>
+    </div>
+  </footer>
+  
+</div>
+</body>
+</html>
